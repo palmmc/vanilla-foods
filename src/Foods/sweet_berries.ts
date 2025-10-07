@@ -3,5 +3,5 @@ import { FoodBehaviorBuilder } from "../builder";
 
 new FoodBehaviorBuilder(ItemIdentifier.SweetBerries)
     .setIcon("sweet_berries")
-    .setFood(2)
+    .setFood(2, 0.2)
     .register();

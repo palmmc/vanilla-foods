@@ -3,5 +3,5 @@ import { FoodBehaviorBuilder } from "../builder";
 
 new FoodBehaviorBuilder(ItemIdentifier.PumpkinPie)
     .setIcon("pumpkin_pie")
-    .setFood(8)
+    .setFood(8, 0.6)
     .register();

@@ -1,7 +1,6 @@
 import { Plugin, PluginEvents } from "@serenityjs/plugins";
 import { FoodBehaviorBuilder } from "./builder";
 import "./Foods";
-import { PlayerStartUsingItemSignal } from "@serenityjs/core";
 
 class VanillaFoodsPlugin extends Plugin implements PluginEvents {
 

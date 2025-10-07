@@ -3,5 +3,5 @@ import { FoodBehaviorBuilder } from "../builder";
 
 new FoodBehaviorBuilder(ItemIdentifier.ChorusFruit)
     .setIcon("chorus_fruit")
-    .setFood(4, true)
+    .setFood(4, 0.6, true)
     .register();

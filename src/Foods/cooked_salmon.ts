@@ -3,5 +3,5 @@ import { FoodBehaviorBuilder } from "../builder";
 
 new FoodBehaviorBuilder(ItemIdentifier.CookedSalmon)
     .setIcon("cooked_salmon")
-    .setFood(6)
+    .setFood(6, 1.6)
     .register();

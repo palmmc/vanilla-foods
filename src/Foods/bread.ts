@@ -3,5 +3,5 @@ import { FoodBehaviorBuilder } from "../builder";
 
 new FoodBehaviorBuilder(ItemIdentifier.Bread)
     .setIcon("bread")
-    .setFood(5, false)
+    .setFood(5, 1.2, false)
     .register();
